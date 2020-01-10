@@ -1,0 +1,142 @@
+/* Container */
+
+.container {
+  min-width: 1139px;
+  padding: 20px 30px 10px;
+}
+
+/* ---- END Container ---- */
+
+/* Links Style */
+
+.link {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  text-decoration: none;
+  color: #474747;
+  justify-content: center;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.left .link {
+  margin-right: 20px;
+}
+
+.right .link {
+  margin-left: 20px;
+}
+
+/* ---- END Link Style ---- */
+
+/* Search Container */
+
+.search-container {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  margin-top: 109px;
+  height: 92px;
+  width: 272px;
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 582px;
+  height: 44px;
+  padding: 15px 8px 0 40px;
+  border: 1px solid #dfe1e5;
+  border-radius: 50px;
+}
+
+.search-form:focus {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.search-container * {
+  margin-bottom: 13px;
+}
+
+.magnify-icon {
+  height: 20px;
+  width: 20px;
+  background:
+    url("https://www.google.com/images/searchbox/desktop_searchbox_sprites302_hr.webp")
+    0% 0% no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+input[type="text"] {
+  width: 560px;
+  height: 39px;
+  border: transparent;
+  background-color: transparent;
+}
+
+/* ---- END Search Container ---- */
+
+/* Navbar */
+.flex-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .button {
+  height: 28px;
+  padding: 7.5px 12px 23px;
+  background-color: #4386f9;
+  color: white !important;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.grid-icon {
+  background: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png) 26.45% 100%;
+  height: 30px;
+  width: 30px;
+}
+
+/* ---- Navbar ---- */
+
+/* ---- Footer ---- */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer .link {
+  color: #6c7074;
+}
+
+.flex-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* ---- END Footer ---- */
