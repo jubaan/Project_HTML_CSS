@@ -21,6 +21,7 @@
 
 a {
   text-decoration: none;
+  color: #474747;
 }
 
 a:hover {
@@ -76,7 +77,7 @@ a:hover {
 }
 
 .nav__link {
-  color: #000;
+  color: #474747;
   font-weight: 400;
 }
 
@@ -96,6 +97,12 @@ a:hover {
   height: 24px;
   width: 20px;
   border: none;
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.icon:hover {
+  opacity: 100%;
 }
 
 /* ----------------------------------- *\
@@ -191,4 +198,26 @@ a:hover {
 
 .footer__menu--right .footer__item {
   margin-left: 27px;
+}
+
+/* ----------------------------------- *\
+  #MEDIA QUERIES
+\*------------------------------------ */
+
+@media only screen and (max-height: 768px) {
+  /* ----------------------------------- *\
+    #B-SEARCH SECTION - Modified
+  \*------------------------------------ */
+
+  .search {
+    padding-top: 92px;
+    width: 584px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .nav__menu {
+    visibility: hidden;
+  }
 }
