@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+
+    <title>Google</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
     <!-- Reset CSS -->
     <link rel="stylesheet" href="minireset.css" />
 
@@ -12,50 +15,70 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar flex-nav container">
-      <ul class="left flex-nav">
-        <li class="flex-nav"><a class="link" href="#">About</a></li>
-        <li class="flex-nav"><a class="link" href="#">Store</a></li>
+    <h1 class="--offscreen">Google</h1>
+    <nav class="container nav --flex">
+      <h2 class="--offscreen">Main menu</h2>
+      <ul class="nav__menu nav__menu--left --flex">
+        <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+        <li class="nav__item"><a class="_nav__link" href="#">Store</a></li>
       </ul>
-      <ul class="right flex-nav">
-        <li class="flex-nav"><a class="link" href="#">Gmail</a></li>
-        <li class="flex-nav"><a class="link" href="#">Images</a></li>
-        <li class="flex-nav"><a class="link grid-icon" href="#"></a></li>
-        <li class="flex-nav">
-          <a class="link button sign-in" href="#">Sign In</a>
+      <ul class="nav_menu nav__menu--right --flex">
+        <li class="nav__item"><a class="nav__link" href="#">Gmail</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Images</a></li>
+        <li class="nav__item">
+          <button class="nav__button icon --flex"></button>
+        </li>
+        <li class="nav__item">
+          <button class="nav__button">Sign In</button>
         </li>
       </ul>
     </nav>
-    <main class="main container">
-      <div class="search-container">
-        <figure>
-          <a class="link" href="#"
-            ><img
-              class="logo-image"
-              src="	https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-              alt="Google"
-          /></a>
+    <main class="container">
+      <div class="search">
+        <figure class="search__image-box">
+          <img
+            class="image-box__logo"
+            src="	https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+            alt="Google"
+          />
         </figure>
-        <form class="search-form flex-search" action="#" method="POST">
-          <i class="magnify-icon"></i>
-          <input type="text" name="search-bar" id="search-bar" />
+        <form class="search__form" action="#" method="POST">
+          <div>
+            <div class=search__icon></div>
+            <input 
+              type="text"
+              name="search__input"
+              id="search__input"
+              class="search__input"
+            />
+          </div>
+          <div class="search__button-box --flex">
+            <button class="search__button mr" href="#">Google Search</button>
+            <button class="search__button" href="#">I'm Feeling Lucky</button>
+          </div>
         </form>
-        <div>
-          <a class="link button" href="#">Google Search</a>
-          <a class="link button" href="#">I'm Feeling Lucky</a>
-        </div>
       </div>
     </main>
-    <footer class="footer flex-footer container">
-      <ul class="left flex-footer">
-        <li class="flex-footer"><a class="link" href="#">Advertising</a></li>
-        <li class="flex-footer"><a class="link" href="#">Business</a></li>
-        <li class="flex-footer"><a class="link" href="#">How Search works</a></li>
+    <footer class="container footer --flex">
+      <ul class="footer_menu footer__menu--left --flex">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Advertising</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Business</a>
+        </li>
+        <li class="footer__item">
+          <a class="link" href="#">How Search works</a>
+        </li>
       </ul>
-      <ul class="right flex-footer">
-        <li class="flex-footer"><a class="link" href="#">Privacy</a></li>
-        <li class="flex-footer"><a class="link" href="#">Terms</a></li>
-        <li class="flex-footer"><a class="link" href="#">Settings</a></li>
+      <ul class="footer_menu footer__menu--right --flex">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy</a>
+        </li>
+        <li class="footer__item"><a class="footer__link" href="#">Terms</a></li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Settings</a>
+        </li>
       </ul>
     </footer>
   </body>
