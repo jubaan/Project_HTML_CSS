@@ -1,59 +1,39 @@
-# Project Name
+# Project: HTML/CSS
 
-> One paragraph statement about the project.
+> The goal was to deconstruct the Google Search website, and use HTML & CSS to clone it and make it as similar as posible.
 
-![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Original Google Search Website
+![screenshot](./assets/img/google.png)
+
+Solution
+![screenshot](./assets/img/clone.png)
+
+
+I also try to follow BEM a CSS naming convention and other css style guides. I run the code through HTML validator and use a linter to review and fix the style issues.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@jubaan](https://github.com/jubaan/)
+- Twitter: [@AnoverosJulio](https://twitter.com/AnoverosJulio)
+- Linkedin: [linkedin](https://www.linkedin.com/in/julio-a%C3%B1overos-b987a8a0/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/jubaan/Project_HTML_CSS/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
 ## Show your support
 
@@ -61,10 +41,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This is a project from the HTML & CSS Odin Project curriculum
+- Validated with:
+  - [W3C validator](https://validator.w3.org/)
+  - Stickler
+  - Styleling
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./assets/LICENSE) licensed.
